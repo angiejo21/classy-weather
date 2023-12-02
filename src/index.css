@@ -90,3 +90,17 @@ input:focus {
   font-size: 2.4rem;
   font-weight: 700;
 }
+
+button {
+  border: none;
+  padding: 1rem 1.5rem;
+  background-color: #d4b1ad;
+  font-family: inherit;
+  font-size: 1.8rem;
+  transition: 0.3s ease-in-out;
+}
+button:hover {
+  background-color: #bd9e9a;
+  transform: translateY(-2px);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
